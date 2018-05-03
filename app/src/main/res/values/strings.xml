@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizProject</string>
+    <string name="app_title">So You Think You Know The POTUS!</string>
+    <string name="player">Enter your name</string>
+    <string name="Q1">Q1.  Who is the 45th President of the U.S.?</string>
+    <string name="Q1_Choice1">Donald Trump</string>
+    <string name="Q1_Choice2">Hillary Clinton</string>
+    <string name="Q2">Q2.  How many times has he been married?</string>
+    <string name="Q2_Choice1">1</string>
+    <string name="Q2_Choice2">2</string>
+    <string name="Q2_Choice3">3</string>
+    <string name="Q2_Choice4">More than 3</string>
+    <string name="Q3">Q3.  Who is no longer with this administration?</string>
+    <string name="Q3_Choice1">Ivanka Trump</string>
+    <string name="Q3_Choice2">Michael Flynn</string>
+    <string name="Q3_Choice3">Paul Manafort</string>
+    <string name="Q3_Choice4">James Comey</string>
+    <string name="Q4">Q4.  President\'\s favorite tweet(s)?</string>
+    <string name="Q4_Choice1">\"No collusion\"</string>
+    <string name="Q4_Choice2">\"Fake news\"</string>
+    <string name="Q4_Choice3">Never tweet</string>
+    <string name="Q4_Choice4">\"Obama a great man\"</string>
+    <string name="Q5">Q5.  His favorite food?</string>
+    <string name="Q5_Choice1">Pizza</string>
+    <string name="Q5_Choice2">Hamburger</string>
+    <string name="Q5_Choice3">Sushi</string>
+    <string name="Q5_Choice4">Fried Chicken</string>
+</resources>
