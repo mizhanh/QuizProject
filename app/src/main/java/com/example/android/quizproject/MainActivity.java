@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void submitQuiz(View view) {
 
         EditText answerInput = (EditText) findViewById(R.id.answerQ2);
-        String answer = answerInput.getText().toString();
+        String answer = answerInput.getText().toString().trim();
         String correctAnswer = "Melania";
 
         RadioButton choiceA = (RadioButton) findViewById(R.id.RadioButton1);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox q5Choice4 = (CheckBox) findViewById(R.id.Q5_Choice4);
 
         if (choiceA.isChecked() && !choiceB.isChecked()) score += 1;
-        if (answer.equals(correctAnswer)) score +=1;
+        if (answer.equalsIgnoreCase(correctAnswer)) score +=1;
         if (!q3Choice1.isChecked() && q3Choice2.isChecked() && q3Choice3.isChecked() && q3Choice4.isChecked()) score += 1;
         if (q4Choice1.isChecked() && q4Choice2.isChecked() && !q4Choice3.isChecked() && !q4Choice4.isChecked()) score += 1;
         if (!q5Choice1.isChecked() && q5Choice2.isChecked() && !q5Choice3.isChecked() && q5Choice4.isChecked()) score += 1;
@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
         }
+        score = 0;
     }
+
 
 }
